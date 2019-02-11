@@ -31,7 +31,7 @@ Then the site will be available at [http://localhost:8000/](http://localhost:800
 There are two parts to your challenge:
 
 1. Implement a basic search feature
-2. Make the news feed _attractive_ and _functional_ on desktop, tablet and mobile devices
+2. Make the news feed _attractive_ and _functional_ on mobile, tablet and desktop devices
 
 It's our hope that this takes you only a few hours to complete. 
 We realize that attractive is subjective. 
