@@ -40,7 +40,7 @@ There is not a correct answer to attractive.
 
 ### Implement A Basic Search Feature
 
-1. I've added an `input[id=search]` field in `index.js`. This is the field you'll be adding events to/
+1. I've added an `input[id=search]` field in `index.js`. This is the field you'll be adding events to.
 2. `onkeyup` you'll be modifying `redditResults`.
 3. The search should match any word within `title` that begins with the letters typed into `input[type=search]`.
 4. **Do not** import a node package to implement the search. Add the necessary event handlers to the project yourself.
