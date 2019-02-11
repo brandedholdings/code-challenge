@@ -38,7 +38,7 @@ We realize that attractive is subjective.
 Use your best judgement.
 There is not a correct answer to attractive. 
 
-### Implement A Basic Search Feature
+### Implement A Typeahead Search Feature
 
 1. I've added an `input[id=search]` field in `index.js`. This is the field you'll be adding events to.
 2. `onkeyup` you'll be modifying `redditResults`.
