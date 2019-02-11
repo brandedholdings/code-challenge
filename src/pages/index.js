@@ -8,7 +8,7 @@ class IndexPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            redditFeed: null
+            redditResults: null
         };
     }
 
@@ -25,7 +25,7 @@ class IndexPage extends React.Component {
     componentDidMount() {
         const component = this;
         axios.get('https://www.reddit.com/r/science.json').then(function(response) {
-            const redditFeed = response.data.data.children.map(node => {
+            const redditResults = response.data.data.children.map(node => {
                 const data = node.data;
                 return {
                     url: `https://www.reddit.com${data.permalink}`,
@@ -33,25 +33,25 @@ class IndexPage extends React.Component {
                     title: data.title,
                 };
             });
-            component.setState({redditFeed: redditFeed});
+            component.setState({redditResults: redditResults});
         }).catch(function(error) {
             console.log(error);
         });
     }
 
     render() {
-        const { redditFeed } = this.state;
+        const { redditResults } = this.state;
         return (
             <section>
                 <h4>Search</h4>
                 <input type="text" name="search" id="search" />
-                {redditFeed ? (
+                {redditResults ? (
                     <ul>
-                        {redditFeed.map(entry => (
-                            <li key={entry.thumbnail}>
-                                <a href={entry.url}>
-                                    <strong>{entry.title}</strong>
-                                    <img src={entry.thumbnail} alt={entry.title}/>
+                        {redditResults.map(result => (
+                            <li key={result.thumbnail}>
+                                <a href={result.url}>
+                                    <strong>{result.title}</strong>
+                                    <img src={result.thumbnail} alt={result.title}/>
                                 </a>
                             </li>
                         ))}
