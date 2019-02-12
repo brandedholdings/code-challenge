@@ -50,7 +50,7 @@ class IndexPage extends React.Component {
                         {redditResults.map(result => (
                             <li key={result.thumbnail}>
                                 <a href={result.url}>
-                                    <strong>{result.title}</strong>
+                                    <h6>{result.title}</h6>
                                     <img src={result.thumbnail} alt={result.title}/>
                                 </a>
                             </li>
