@@ -45,7 +45,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+h6 {
+  text-align: center;
+  line-height: 1.35;
+}
 img{
   display: flex;
   margin: auto;
@@ -54,16 +57,26 @@ img{
 
 ul {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+button {
+  display: block;
+  margin: 10px auto 0px auto;
 }
 
 
 
 li {
   text-overflow: none;
+}
+
+.search-container {
+  text-align: center;
+  margin: 25px 0px 50px 0px;
 }
 
 

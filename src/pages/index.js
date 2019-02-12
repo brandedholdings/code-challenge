@@ -43,16 +43,19 @@ class IndexPage extends React.Component {
         const { redditResults } = this.state;
         return (
             <section>
-                <h4>Search</h4>
-                <input type="text" name="search" id="search" />
+                <div className="search-container">
+                    <h4>Search</h4>
+                    <input type="text" name="search" id="search" />
+                </div>
                 {redditResults ? (
                     <ul>
                         {redditResults.map(result => (
                             <li key={result.thumbnail}>
-                                <a href={result.url}>
+                                
                                     <h6>{result.title}</h6>
                                     <img src={result.thumbnail} alt={result.title}/>
-                                </a>
+                                    <button><a href={result.url}>Read Article</a></button>
+                                
                             </li>
                         ))}
                     </ul>
