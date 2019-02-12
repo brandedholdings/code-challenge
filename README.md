@@ -1,10 +1,5 @@
 # Web Developer (ReactJS) Code Challenge
 
-*Congratulations!*
-
-We had a phone screen and we think you may be the next frontend/react guru who will join our team of talented developers 
-working on [https://cardguru.com](https://cardguru.com). 
-
 ## The Challenge
 
 We've tried to put together a code challenge that will test your overall knowledge of HTML5 and CSS 
@@ -15,9 +10,9 @@ I've done basic work to consume that feed with an axios client and to set that f
 
 ## How to submit your work
 
-1. [Fork the project on github](https://help.github.com/articles/fork-a-repo/) to a public repository under your github user
+1. Clone this repository
 2. Apply your modifications to satisfy the requirements 
-3. Email the forked repository with your code modifications to [dave.maple@brandedholdings.com](mailto:dave.maple@brandedholdings.com)
+3. Zip the completed directory and email it to [dave.maple@brandedholdings.com](mailto:dave.maple@brandedholdings.com)
 
 ## How to run the project
 ```bash
