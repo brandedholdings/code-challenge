@@ -35,9 +35,10 @@ There is not a correct answer to attractive.
 1. Search Feature
 2. Ability to enter a valid city/state/location
 3. Allow the for pagination once the user has enter 5 cities or more.
-4. Make sure to not to any other packages except a package for grabbing the JSON data. 
+4. Make sure to not to any other packages except a package for grabbing the JSON data.
 5. Feel free to add SCSS to `application.scss`
 6. **Do not** add a CSS framework or other library to accomplish this task. 
+7. BONUS - Add Jest tests for each page/component you create.
 
 
 
