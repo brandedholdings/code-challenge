@@ -1,52 +1,43 @@
 # Web Developer (ReactJS) Code Challenge
 
+*Congratulations!*
+
+We had a phone screen and we think you may be the next frontend/react guru who will join our team of talented developers. 
+
 ## The Challenge
 
-We've tried to put together a code challenge that will test your overall knowledge of HTML5 and CSS 
-as well as demonstrating mastery of some basic skills in ReactJS.
+We've tried to put together a code challenge that will test your overall knowledge of React, Typescript, Jest, HTML and CSS.
 
-The challenge leverages a science feed from Reddit. 
-I've done basic work to consume that feed with an axios client and to set that feed into state on the index page.
+The challenge leverages a weather feed using an open source api. Create a dashboard with a 5-day forecast for user entered city. Please 
+make allow up to 20 cities to be entered by the user and the 5 records could be searchable. The dashboard should allow each day to be clickable and open a 12 hour forecast view for that day. Make sure the UI is functional, attractive and renders properly on all device viewports. 
 
 ## How to submit your work
 
-1. Clone this repository
+1. [Fork the project on github](https://help.github.com/articles/fork-a-repo/) to a public repository under your github user
 2. Apply your modifications to satisfy the requirements 
-3. Zip the completed directory and email it to [dave.maple@brandedholdings.com](mailto:dave.maple@brandedholdings.com)
+3. Email the forked repository with your code modifications to [dave.maple@brandedholdings.com](mailto:dave.maple@brandedholdings.com)
 
 ## How to run the project
 ```bash
-npm run develop
+yarn run dev
 ```
 
-Then the site will be available at [http://localhost:8000/](http://localhost:8000/).
+Then the site will be available at [http://localhost:3000/](http://localhost:3000/).
 
 ## Requirements
 
-There are two parts to your challenge:
-
-1. Implement a basic search feature
-2. Make the news feed _attractive_ and _functional_ on mobile, tablet and desktop devices
-
-It's our hope that this takes you only a few hours to complete. 
 We realize that attractive is subjective. 
 Use your best judgement.
 There is not a correct answer to attractive. 
 
-### Implement A Typeahead Search Feature
-
-1. I've added an `input[id=search]` field in `index.js`. This is the field you'll be adding events to.
-2. `onkeyup` you'll be modifying `redditResults`.
-3. The search should match any word within `title` that begins with the letters typed into `input[type=search]`.
-4. **Do not** import a node package to implement the search. Add the necessary event handlers to the project yourself.
-
 ### Implement An Attractive & Functional Layout
 
-1. Implement a layout using the 3 fields available in a `redditResult`
-2. Make sure the layout renders properly on mobile, tablet and desktop viewports.
-3. Feel free to restructure the HTML in `index.js`
-4. Feel free to add SCSS to `application.scss`
-5. **Do not** add a CSS framework or other library to accomplish this task. 
+1. Search Feature
+2. Ability to enter a valid city/state/location
+3. Allow the for pagination once the user has enter 5 cities or more.
+4. Make sure to not to any other packages except a package for grabbing the JSON data. 
+5. Feel free to add SCSS to `application.scss`
+6. **Do not** add a CSS framework or other library to accomplish this task. 
 
 
 
