@@ -15,7 +15,7 @@ make allow up to 20 cities to be entered by the user and the 5 records could be 
 
 1. [Fork the project on github](https://help.github.com/articles/fork-a-repo/) to a public repository under your github user
 2. Apply your modifications to satisfy the requirements 
-3. Email the forked repository with your code modifications to [dave.maple@brandedholdings.com](mailto:dave.maple@brandedholdings.com)
+3. Email the forked repository with your code modifications to [brian.mccullough@acquireinteractive.com](brian.mccullough@acquireinteractive.com)
 
 ## How to run the project
 ```bash
